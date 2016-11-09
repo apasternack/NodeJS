@@ -18,3 +18,6 @@ greet3b.greet();
 var Greet4 = require('./greet4');
 var grtr = new Greet4();
 grtr.greet();
+
+var greet5 = require('./greet5').greet;
+greet5();
