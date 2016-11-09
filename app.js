@@ -5,3 +5,7 @@ greet();
 // greet2.greet();
 var greet2 = require('./greet2').greet;
 greet2();
+
+var greet3 = require('./greet3');
+greet3.greet();
+
