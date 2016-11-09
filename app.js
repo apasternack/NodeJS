@@ -1,4 +1,2 @@
-var greet = require('./greet');
-
-greet.english();
-greet.spanish();
+var greet = require('./greet1');
+greet();
