@@ -7,6 +7,6 @@ var obj = {
 
 obj.greet('apples', 'oranges');
 
-//only difference between call and apply is the format of how I pass parameters (if there are any, to the function)
+//only difference between call and apply is the format of how I pass parameters (if there are any, to the functionÍ)
 obj.greet.call({ name: "Donald Trump"}, 'potato', 'tomato');
 obj.greet.apply({ name: "mike pence"}, ['this', 'that']);
